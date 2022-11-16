@@ -1,34 +1,82 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>TP Navbar</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="style.css" rel="stylesheet" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-			integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-			crossorigin="anonymous"
-		/>
-	</head>
-	<body>
-		<div>
-			<ul class="navbar">
-				<li class="navbar-item logo">
-					<a href="#" class="navbar-link">
-						<span class="navbar-title">logo</span>
-					</a>
-				</li>
-
-				<li class="list"><a class="Acceuil" href="#Acceuil">Acceuil</a></li>
-				<li class="list"><a class="Multijoueurs" href="#Multijoueurs">Multijoueurs</a></li>
-				<li class="list"><a class="Zombie" href="#Zombie">Zombie</a></li>
-				<li class="list"><a class="Campagne" href="#Campagne">Campagne</a></li>
-			</ul>
-		</div>
-	</body>
-</html>
+<div class="container">
+				<h3 id="section_further_down5"></h3>
+				<div class="row">
+			
+					<div class="col-xl-8 offset-xl-2 py-5">
+			
+						<h2>Contact</h2>
+			
+						<p class="lead">Pour plus d'informations sur le jeu veuillez nous contacter avec le formulaire ci dessous</p>
+			
+							<div class="messages"></div>
+			
+							<div class="controls">
+			
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_name">Nom *</label>
+											<input id="form_name" type="text" name="name" class="form-control" placeholder="Veuillez entrer votre nom *" required="required" data-error="Nom est obligatoire.">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_lastname">Prénom *</label>
+											<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Veuillez entre votre prénom *" required="required" data-error="Prénom est obligatoire.">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_email">Email *</label>
+											<input id="form_email" type="email" name="email" class="form-control" placeholder="Veuillez entrer votre email *" required="required" data-error="Un email valid est obligatoire.">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_need">Veuillez préciser votre besoin *</label>
+											<select id="form_need" name="need" class="form-control" required="required" data-error="Veuillez préciser votre besoin.">
+												<option value=""></option>
+												<option value="Demande de devis">Demande de partie</option>
+												<option value="Demande générale">Demande générale</option>
+												<option value="Demander une facture">Demander une facture pour site web</option>
+												<option value="Autre">ludoviiiiiiiic</option>
+												<option value="Autre">Autre</option>
+											</select>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group">
+											<label for="form_message">Message *</label>
+											<textarea id="form_message" name="message" class="form-control" placeholder="Votre Message *" rows="4" required="required" data-error="Veuillez remplir le champ Message."></textarea>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<button class="rounded" onclick="window.location.href = 'https://media.discordapp.net/attachments/1041706100195602534/1042001775781216297/kcorp-kameto-corp.gif';">Envoyer</button>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="text-muted">
+											<strong>*</strong> Ces champs sont obligatoires.</p>
+									</div>
+								</div>
+							</div>
+			
+						</form>
+			
+					</div>
+					<!-- /.8 -->
+			
+				</div>
+				<!-- /.row-->
+			
+			</div>
