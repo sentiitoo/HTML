@@ -37,10 +37,9 @@
     transform: translate(-50%, -50%);
 }
 
-.carousel {
-    position: relative;
-    width:1000px;
-    height:600px;
+.row-carouselcallof {
+    padding-bottom: 500px;
+    padding-top: 150px;
   }
 
 .fixed-bottom {
