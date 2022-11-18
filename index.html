@@ -11,10 +11,10 @@
 			crossorigin="anonymous"
 		/>
 		<link href="style.css" rel="stylesheet" />
-		<title>Bootstrap demo</title>
+		<title>Call of Duty Black Ops 3</title>
 	</head>
 	<body style="
-    background: black; color: white;"> 
+    background: black; color: white;">
 		<nav class="navbar navbar-expand-lg">
 			<div class="container-fluid">
 				<a
@@ -65,148 +65,193 @@
 				</div>
 			</div>
 		</nav>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-			crossorigin="anonymous"
-		></script>
 		<div class="bg-image" style="background-image: url('https://zupimages.net/up/22/46/bz4d.jpg'); height: 100vh; background-position: center"> 
-			<h1 class="text-white"> DISPONIBLE SUR CONSOLES ET PC</h1>
+			<h1 class="text-white"> DISPONIBLE SUR CONSOLES ET PC</h1>	
 		</div>
         <div class="bg-image2" style="background-image: url('https://zupimages.net/up/22/46/v6t2.jpg'); height: 100vh; background-position: center;">
-		<!-- bloc pour image avec texte centré-->
-		<figure class="item"> <br><br><br><br>
-            <h2 class="text-white3"> Campagne</h2>
-			<img src="https://zupimages.net/up/22/46/0gu4.jpg"/>
-			<figcaption class="caption">en 2065. Une nouvelle espèce de soldats Black Ops a émergé et la frontière se brouille entre l'humanité et la robotique militaire de pointe qui définit le combat du futur
-			</figcaption>
-		</figure>
-		<figure class="item"> <br><br><br><br>
-            <h2 class="text-white2"> Zombies</h2>
-			<img src="https://zupimages.net/up/22/46/gu7f.jpg"/>
-			<figcaption class="caption">Call of Duty®: Black Ops III Zombies est le plus ambitieux et le plus immersif des Call of Duty® Zombies à ce jour. Shadows of Evil apporte les ténèbres et le chaos comme jamais auparavant tout en proposant un gameplay unique et innovant, en plus d'un scénario captivant et d'un système de progression basé sur l'EXP.</figcaption>
-		</figure>
-		<figure class="item"> <br><br><br><br>
-            <h2 class="text-white3"> Multijoueur</h2>
-			<img src="https://zupimages.net/up/22/46/d9x0.jpg"/>
-			<figcaption class="caption">Le mode multijoueur de Call of Duty®: Black Ops III redéfinit la façon de jouer à call of duty. Il offre l'expérience de jeu la plus enrichissante et la plus attrayante de la franchise avec un nouveau système fluide basé sur les enchaînements de mouvements, de nouvelles façon de monter en grade, de personnaliser et de s'équiper pour le combat.</figcaption>
-		</figure>
-
-        <figure class="item2"> <br><br>
-            <img src="https://zupimages.net/up/22/46/e0o9.jpg" width="500" height="500"></img>
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="https://zupimages.net/up/22/46/0gu4.jpg" class="d-block w-100" alt="Campagne photo">
+					<div class="carousel-caption d-none d-md-block">
+					  <h5>CAMPAGNE</h5>
+					  <p>en 2065. Une nouvelle espèce de soldats Black Ops a émergé et la frontière se brouille entre l'humanité et la robotique militaire de pointe qui définit le combat du futur</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="https://zupimages.net/up/22/46/gu7f.jpg" class="d-block w-100" alt="Zombies">
+					<div class="carousel-caption d-none d-md-block">
+					  <h5>ZOMBIES</h5>
+					  <p>Call of Duty®: Black Ops III Zombies est le plus ambitieux et le plus immersif des Call of Duty® Zombies à ce jour. Shadows of Evil apporte les ténèbres et le chaos comme jamais auparavant tout en proposant un gameplay unique et innovant, en plus d'un scénario captivant et d'un système de progression basé sur l'EXP.</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="https://zupimages.net/up/22/46/d9x0.jpg" class="d-block w-100" alt="Multijoueur">
+					<div class="carousel-caption d-none d-md-block">
+					  <h5>MULTIJOUEUR</h5>
+					  <p>Le mode multijoueur de Call of Duty®: Black Ops III redéfinit la façon de jouer à call of duty. Il offre l'expérience de jeu la plus enrichissante et la plus attrayante de la franchise avec un nouveau système fluide basé sur les enchaînements de mouvements, de nouvelles façon de monter en grade, de personnaliser et de s'équiper pour le combat.</p>
+					</div>
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			
+			<!-- bloc pour image avec texte centré-->
+			<!-- <figure class="item"> <br><br><br><br>
+				<h2 class="text-white3"> Campagne</h2>
+				<img class=img2 src="https://zupimages.net/up/22/46/0gu4.jpg"/>
+				<figcaption class="caption">en 2065. Une nouvelle espèce de soldats Black Ops a émergé et la frontière se brouille entre l'humanité et la robotique militaire de pointe qui définit le combat du futur
+				</figcaption>
+			</figure>
+			<figure class="item"> <br><br><br><br>
+				<h2 class="text-white2"> Zombies</h2>
+				<img class=img2 src="https://zupimages.net/up/22/46/gu7f.jpg"/>
+				<figcaption class="caption">Call of Duty®: Black Ops III Zombies est le plus ambitieux et le plus immersif des Call of Duty® Zombies à ce jour. Shadows of Evil apporte les ténèbres et le chaos comme jamais auparavant tout en proposant un gameplay unique et innovant, en plus d'un scénario captivant et d'un système de progression basé sur l'EXP.</figcaption>
+			</figure>
+			<figure class="item"> <br><br><br><br>
+				<h2 class="text-white3"> Multijoueur</h2>
+				<img class=img2 src="https://zupimages.net/up/22/46/d9x0.jpg"/>
+				<figcaption class="caption">Le mode multijoueur de Call of Duty®: Black Ops III redéfinit la façon de jouer à call of duty. Il offre l'expérience de jeu la plus enrichissante et la plus attrayante de la franchise avec un nouveau système fluide basé sur les enchaînements de mouvements, de nouvelles façon de monter en grade, de personnaliser et de s'équiper pour le combat.</figcaption>
+			</figure>
+			
+        	<figure class="item2"> <br><br>
+            <img class= img2 src="https://zupimages.net/up/22/46/e0o9.jpg" width="500" height="500"></img>
             <figcaption class="caption2">UN TOUT NOUVEAU SYSTEME DE SPECIALISTE :<br> choisissez parmi une sélection de soldats d'élites. Chacun d'entre eux possède une apparence, une personnalité et une voix spécifiques </figcaption>
-        </figure>
+        	</figure>
+			<img class=img-responsive src="https://zupimages.net/up/22/46/e0o9.jpg" style=width:100%/> -->
 			<!-- video gameplay
-		<div class="gameplay"></div>
-		<h3 id="section_further_down4"></h3>	
-		<iframe width="760" height="415" src="https://www.youtube.com/embed/xXEShihYIzo">
-		</iframe>-->
-	</div>
-			<!-- formulaire contact-->
-			<div class="container">
-				<h3 id="section_further_down5"></h3>
-				<div class="row">
+			<div class="gameplay"></div>
+			<h3 id="section_further_down4"></h3>	
+			<iframe width="760" height="415" src="https://www.youtube.com/embed/xXEShihYIzo">
+			</iframe>-->
 			
-					<div class="col-xl-8 offset-xl-2 py-5">
-			
-						<h2>Contact</h2>
-			
-						<p class="lead">Pour plus d'informations sur le jeu veuillez nous contacter avec le formulaire ci dessous</p>
-			
-							<div class="messages"></div>
-			
-							<div class="controls">
-			
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_name">Nom *</label>
-											<input id="form_name" type="text" name="name" class="form-control" placeholder="Veuillez entrer votre nom *" required="required" data-error="Nom est obligatoire.">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_lastname">Prénom *</label>
-											<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Veuillez entre votre prénom *" required="required" data-error="Prénom est obligatoire.">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_email">Email *</label>
-											<input id="form_email" type="email" name="email" class="form-control" placeholder="Veuillez entrer votre email *" required="required" data-error="Un email valid est obligatoire.">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_need">Veuillez préciser votre besoin *</label>
-											<select id="form_need" name="need" class="form-control" required="required" data-error="Veuillez préciser votre besoin.">
-												<option value=""></option>
-												<option value="Demande de devis">Demande de partie</option>
-												<option value="Demande générale">Demande générale</option>
-												<option value="Demander une facture">Demander une facture pour site web</option>
-												<option value="Autre">ludoviiiiiiiic</option>
-												<option value="Autre">Autre</option>
-											</select>
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<label for="form_message">Message *</label>
-											<textarea id="form_message" name="message" class="form-control" placeholder="Votre Message *" rows="4" required="required" data-error="Veuillez remplir le champ Message."></textarea>
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-md-12">
-										<button class="rounded" onclick="window.location.href = 'https://media.discordapp.net/attachments/1041706100195602534/1042001775781216297/kcorp-kameto-corp.gif';">Envoyer</button>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<p class="text-muted">
-											<strong>*</strong> Ces champs sont obligatoires.</p>
-									</div>
+		</div>
+		
+		<!-- <div class="ratio ratio-16x9">
+			<iframe src="https://www.youtube.com/embed/glEH8cSaJNc" title="gameplaybo" allowfullscreen></iframe>
+		</div>
+		 -->
+		<!-- formulaire contact-->
+		<div class="container">
+			<h3 id="section_further_down5"></h3>
+			<div class="row">
+				
+				<div class="col-xl-8 offset-xl-2 py-5">
+					
+					<h2>Contact</h2>
+					
+					<p class="lead">Pour plus d'informations sur le jeu veuillez nous contacter avec le formulaire ci dessous</p>
+					
+					<div class="messages"></div>
+					
+					<div class="controls">
+						
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_name">Nom *</label>
+									<input id="form_name" type="text" name="name" class="form-control" placeholder="Veuillez entrer votre nom *" required="required" data-error="Nom est obligatoire.">
+									<div class="help-block with-errors"></div>
 								</div>
 							</div>
-			
-						</form>
-			
-					</div>
-					<!-- /.8 -->
-			
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_lastname">Prénom *</label>
+									<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Veuillez entre votre prénom *" required="required" data-error="Prénom est obligatoire.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_email">Email *</label>
+									<input id="form_email" type="email" name="email" class="form-control" placeholder="Veuillez entrer votre email *" required="required" data-error="Un email valid est obligatoire.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_need">Veuillez préciser votre besoin *</label>
+									<select id="form_need" name="need" class="form-control" required="required" data-error="Veuillez préciser votre besoin.">
+										<option value=""></option>
+										<option value="Demande de devis">Demande de partie</option>
+										<option value="Demande générale">Demande générale</option>
+										<option value="Demander une facture">Demander une facture pour site web</option>
+										<option value="Autre">ludoviiiiiiiic</option>
+										<option value="Autre">Autre</option>
+									</select>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<label for="form_message">Message *</label>
+									<textarea id="form_message" name="message" class="form-control" placeholder="Votre Message *" rows="4" required="required" data-error="Veuillez remplir le champ Message."></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<button class="rounded" onclick="window.location.href = 'https://media.discordapp.net/attachments/1041706100195602534/1042001775781216297/kcorp-kameto-corp.gif';">Envoyer</button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p class="text-muted">
+									<strong>*</strong> Ces champs sont obligatoires.</p>
+								</div>
+							</div>
+						</div>
+						
+					</form>
+					
 				</div>
-				<!-- /.row-->
-			
+				<!-- /.8 -->
+				
 			</div>
-        </div>
-	</body>
-	
-		<footer class="text-center text-lg-start" style="background-color: #23242a;">
-		  <div class="container d-flex justify-content-center py-5">
-			<button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-			  <i class="fab fa-linkedin"></i>
-			</button>
-			<button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-			  <i class="fab fa-github"></i>
-			  <a class="fab fa-github" href="https://github.com/sentiitoo/HTML" target="_blank"></a>
-			</button>
-		  </div>
+			<!-- /.row-->
 			
-		  
-		  <!-- Copyright -->
-		  
-		  <div class="text-center text-white-footer p-3" style="background-color: rgba(0, 0, 0, 0);">
-			© 2022 Copyright:
-			<a class="text-white-footer" href="https://github.com/sentiitoo/HTML" target="_blank">Lucas & Idriss</a>
-		  </div>
-		  <!-- Copyright -->
-		</footer>
-		
+		</div>
+	</div>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"
+	></script>
+</body>
+
+<footer class="text-center text-lg-start" style="background-color: #23242a;">
+	<div class="container d-flex justify-content-center py-5">
+		<button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+			<a class="fab fa-linkedin" href="https://www.linkedin.com/in/lucas-poignard-716747252/"></a>
+		</button>
+		<button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+			<a class="fab fa-github" href="https://github.com/sentiitoo/HTML" target="_blank"></a>
+		</button>
+	</div>
+	
+	
+	<!-- Copyright -->
+	
+	<div class="text-center text-white-footer p-3" style="background-color: rgba(0, 0, 0, 0);">
+		© 2022 Copyright:
+		<a class="text-white-footer" href="https://github.com/sentiitoo/HTML" target="_blank">Lucas & Idriss</a>
+	</div>
+	<!-- Copyright -->
+</footer>
+
 </html>
