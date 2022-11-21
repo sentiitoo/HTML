@@ -74,11 +74,6 @@
     height: 205px;
 }
 
-.img2 {
-    width: 650px;
-    height: 500px;
-}
-
 .caption {
     vertical-align: top;
     display: inline-block;
@@ -99,10 +94,6 @@
     padding: 10px;
 }
 
-.bg-image2{
-    background-position: center;
-}
-
 .a {
     color: #ffffff !important;
     text-decoration: underline;
@@ -118,10 +109,6 @@
     color: white;
     font-family: fantasy;
     border-color: orangered;
-}
-
-.card-body{
-    border-bottom: orangered;
 }
 
 :root {
