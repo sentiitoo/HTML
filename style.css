@@ -25,6 +25,12 @@
     
 }
 
+.bg-image{
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
 .ratio {
     position: relative;
     width: 50%;
@@ -52,7 +58,7 @@
 .row-carouselcallof {
     padding-bottom: 100px;
     padding-top: 100px;
-  }
+}
 
 .carousel-caption {
     background-color: black;
@@ -100,6 +106,22 @@
 .a {
     color: #ffffff !important;
     text-decoration: underline;
+}
+.card {
+    float: right;
+    left: 120%;
+    border-color: orangered;
+    height: 465px;
+    background-color:black
+}
+.card-text{
+    color: white;
+    font-family: fantasy;
+    border-color: orangered;
+}
+
+.card-body{
+    border-bottom: orangered;
 }
 
 :root {
