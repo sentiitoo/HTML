@@ -24,6 +24,32 @@
     color: white;
     
 }
+:root {
+    --modal-duration: 1s;
+    --modal-color: grey;
+  }
+
+  .modal-header {
+    background: var(--modal-color);
+    padding: 15px;
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .modal-body {
+    padding: 10px 20px;
+    background: black;
+  }
+  
+  .modal-footer {
+    background: var(--modal-color);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
 
 .bg-image{
     background-size: cover;
