@@ -4,11 +4,41 @@
     background-color: black;
     text-align: center;
     padding: 30px;
-} 
+}
+.bg-image {
+    background-image: url('https://res.cloudinary.com/dlcwbucwf/image/upload/v1669104587/folder/bz4d_olej30.webp');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.cmp {
+    font-family: fantasy;
+}
+.btn {
+    background-color: #54456b;
+}
+.text-center {
+    background-color: rgba(0, 0, 0, 0);
+}
+.linkedin {
+    background-color: #54456b;
+}
+.vidt {
+    font-family: Orbitron;
+}
+.foot {
+    background-color: #23242a;
+}
+
+.body {
+    background: black; 
+    color: white;
+}
 
 .navbar-brand {
     color: #fff;
 }
+
 
 .navbar-toggler {
     background: #fff;
@@ -22,39 +52,23 @@
 
 .navbar-expand-lg .navbar-nav .nav-link {
     color: white;
-    
 }
 :root {
     --modal-duration: 1s;
     --modal-color: grey;
-  }
+}
 
-  .modal-header {
+.modal-header {
     background: var(--modal-color);
     padding: 15px;
     color: black;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-  }
+}
   
-  .modal-body {
+.modal-body {
     padding: 10px 20px;
     background: black;
-  }
-  
-  .modal-footer {
-    background: var(--modal-color);
-    padding: 10px;
-    color: #fff;
-    text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-
-.bg-image{
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
 }
 
 .ratio {
@@ -75,7 +89,7 @@
 
 .text-white {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Koulen', cursive;
@@ -99,6 +113,7 @@
     width: 300px;
     height: 205px;
 }
+
 
 .caption {
     vertical-align: top;
@@ -125,18 +140,26 @@
     text-decoration: underline;
 }
 .card {
+    width: 100%;
     float: right;
     left: 120%;
     border-color: orangered;
-    height: 465px;
+    height: auto;
     background-color:black
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
 }
 .card-text{
     color: white;
     font-family: fantasy;
     border-color: orangered;
 }
-
+.card-body {
+    width: auto;
+    height: auto;
+}
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
