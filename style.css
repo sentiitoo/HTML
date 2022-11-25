@@ -5,33 +5,40 @@
     text-align: center;
     padding: 30px;
 }
+
 .bg-image {
     background-image: url('https://res.cloudinary.com/dlcwbucwf/image/upload/v1669104587/folder/bz4d_olej30.webp');
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
+
 .cmp {
     font-family: fantasy;
 }
+
 .btn {
     background-color: #54456b;
 }
+
 .text-center {
     background-color: rgba(0, 0, 0, 0);
 }
+
 .linkedin {
     background-color: #54456b;
 }
+
 .vidt {
     font-family: Orbitron;
 }
+
 .foot {
     background-color: #23242a;
 }
 
 .body {
-    background: black; 
+    background: black;
     color: white;
 }
 
@@ -53,6 +60,7 @@
 .navbar-expand-lg .navbar-nav .nav-link {
     color: white;
 }
+
 :root {
     --modal-duration: 1s;
     --modal-color: grey;
@@ -65,7 +73,7 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-  
+
 .modal-body {
     padding: 10px 20px;
     background: black;
@@ -78,7 +86,7 @@
 }
 
 .image_responsive {
-    position:relative;
+    position: relative;
     height: 350px;
 }
 
@@ -119,7 +127,7 @@
     display: inline-block;
     text-align: center;
     width: 300px;
-    color:#fd7e14;
+    color: #fd7e14;
     font-family: fantasy;
 }
 
@@ -138,27 +146,37 @@
     color: #ffffff !important;
     text-decoration: underline;
 }
+
 .card {
     width: 100%;
     float: right;
     left: 120%;
     border-color: orangered;
     height: auto;
-    background-color:black
+    background-color: black
 }
+
 .card-img-top {
     width: 100%;
     height: auto;
 }
-.card-text{
+
+.card-text {
     color: white;
     font-family: fantasy;
     border-color: orangered;
 }
+
 .card-body {
     width: auto;
     height: auto;
 }
+
 :root {
     --bs-link-color: #ffffff;
+}
+
+.cloudi {
+    width: 100%;
+    height: auto;
 }
