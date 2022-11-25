@@ -74,85 +74,61 @@
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-						<div class="container">
-							<div class="row">
-
-								<div class="col-xl-8 offset-xl-2 py-5">
-
-									<h2 id="Contact">Contact</h2>
-
-									<p class="lead">Pour plus d'informations sur le jeu veuillez nous contacter avec le
-										formulaire ci-dessous</p>
-									<div class="controls">
-										<form action="/page-traitement-donnees" method="post">
-											<div class="row">
-												<div class="col-md-6">
-													<div class="form-group">
-														<label for="form_name">Nom *</label>
-														<input id="form_name" type="text" name="name"
-															class="form-control"
-															placeholder="Veuillez entrer votre nom *"
-															required="required" data-error="Nom est obligatoire.">
-														<div class="help-block with-errors"></div>
-													</div>
-												</div>
-												<div class="col-md-6">
-													<div class="form-group">
-														<label for="form_lastname">Prénom *</label>
-														<input id="form_lastname" type="text" name="surname"
-															class="form-control"
-															placeholder="Veuillez entre votre prénom *"
-															required="required" data-error="Prénom est obligatoire.">
-														<div class="help-block with-errors"></div>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-6">
-													<div class="form-group">
-														<label for="form_email">Email *</label>
-														<input id="form_email" type="email" name="email"
-															class="form-control"
-															placeholder="Veuillez entrer votre email *"
-															required="required"
-															data-error="Un email valid est obligatoire.">
-														<div class="help-block with-errors"></div>
-													</div>
-												</div>
-												<div class="col-md-6">
-													<div class="form-group">
-														<label for="form_need">Veuillez préciser votre besoin *</label>
-														<select id="form_need" name="need" class="form-control"
-															required="required"
-															data-error="Veuillez préciser votre besoin.">
-															<option value=""></option>
-															<option value="Demande de devis">Demande de partie</option>
-															<option value="Demande générale">Demande générale</option>
-															<option value="Demander une facture">Demander une facture
-																pour site web</option>
-															<option value="Autre">ludoviiiiiiiic</option>
-															<option value="Autre">Autre</option>
-														</select>
-														<div class="help-block with-errors"></div>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-12">
-													<div class="form-group">
-														<label for="form_message">Message *</label>
-														<textarea id="form_message" name="message" class="form-control"
-															placeholder="Votre Message *" rows="4" required="required"
-															data-error="Veuillez remplir le champ Message."></textarea>
-														<div class="help-block with-errors"></div>
-													</div>
-												</div>
-												<div class="col-md-12">
-													<button class="rounded" onclick="myFunction()">Envoyer</button>
-													<p><strong>Ces champs sont obligatoires.*</strong></p>
-												</div>
-											</div>
-	</nav>
+						<section class="form-section">
+							<form name="contactform" method="post" class="need-validation" novalidate id="forms">
+						<div class="contactblock">
+							<p class="blockname"> Entrez vos informations de Contact</p>
+							<hr>
+						<div class="contactdetails">
+							<div class="form-group row">
+								<label for="Prénom" class="col-sm-2 col-form-label">Prénom*</label>
+								<div class="col-sm-6">
+									<input name="pname" type="text" class="form-control" id="Prénom" autocomplete="off" required="">
+									<div class="invalid-feedback">
+										Veuillez entrer votre prénom.
+									</div>
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="Nom" class="col-sm-2 col-form-label">Nom*</label>
+								<div class="col-sm-6">
+									<input type="text" class="form-control" id="Nom" name="nname" autocomplete="off" required="">
+									<div class="invalid-feedback">
+										Veuillez entrer un Nom.	
+									 </div> 
+								 </div>
+							 </div>
+							 <div class="form-group row">
+								<label for="Email" class="col-sm-2 col-form-label">Email*</label>
+								<div class="col-sm-6">
+									<input type="email" class="form-control" id="Email" name="ename" placeholder="xx@yy.com" autocomplete="off" required="">
+									<div class="invalid-feedback">
+										Veuillez entrer votre Email.
+									</div>
+								</div>
+							 </div>
+							 <div class="form-group row">
+								<label for="Message" class="col-md-12 col-form-label">Message*</label>
+								<div class="col-md-12">
+									<textarea id="Message" name="mname" class="form-control" placeholder="Votre Message" rows="4" required=""></textarea>
+									<div class="invalid-feedback">
+										Veuillez écrire dans ce champs.
+									</div>
+								</div>
+							 </div>
+							 <input type="hidden" id="amountopay" value="">
+							 <div class="click">
+								<button id="customButton" type="Envoyer" class="btn btn-success btn-block">Envoyer</button>
+							 </div>
+							</div>
+						</div>
+							</form>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>	
+</nav>
 	<div class="bg-image">
 		<h1 class="text-white"> DISPONIBLE SUR CONSOLES ET PC</h1>
 	</div>
@@ -226,16 +202,10 @@
 					DE 10 MODES DE JEUX TEL QUE LES CLASSIQUES MATCH À MORT PAR ÉQUIPES OU ALORS LE MODE DOMINATION OU
 					VOTRE BUT SERA DE CONTRÔLER LE MAXIMUM DE BASES POUR MARQUER PLUS DE POINTS QUE L'ADVERSAIRE.
 				</p>
-				<div class="container">
-					<div class="row">
-						<div class="col-6">
-						   <img class="cloudi" src="https://res.cloudinary.com/dlcwbucwf/image/upload/v1669105102/folder/m214_rcktrk.webp" alt="imgbo">
-						</div>
-						<div class="col-6">
-						   <img class="cloudi" src="https://res.cloudinary.com/dlcwbucwf/image/upload/v1669105141/folder/da7q_atiaan.webp" alt="imgbo2">
-						</div>
-					</div>
-				  </div>
+				<img src="https://res.cloudinary.com/dlcwbucwf/image/upload/v1669105102/folder/m214_rcktrk.webp"
+					class="image_responsive" alt="specialist bo3">
+				<img src="https://res.cloudinary.com/dlcwbucwf/image/upload/v1669105141/folder/da7q_atiaan.webp"
+					class="image_responsive" alt="modes mult"><br><br><br><br><br>
 				<h5 class="vidt" id="gameplay"> DECOUVREZ LA CARTE COMBINE DU MODE MULTIJOUEUR</h5>
 				<div class="ratio ratio-16x9">
 					<iframe src="https://www.youtube.com/embed/glEH8cSaJNc" title="gameplaybo" allowfullscreen></iframe>
@@ -254,9 +224,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</nav>
 </body>
+
 
 <footer class="foot">
 	<div class="d-flex justify-content-center py-5">
