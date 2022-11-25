@@ -1,4 +1,15 @@
-function myFunction() {
-	confirm('que votre message a été envoyé');
-}
-onclick = 'myFunction()';
+(function () {
+	'use strict'
+	var forms = document.getElementsByClassName('.need-validation')
+	Array.prototype.slice.call(forms)
+	  .forEach(function (form) {
+		form.addEventListener('submit', function (event) {
+		  if (!form.checkValidity()) {
+			event.preventDefault()
+			event.stopPropagation()
+		  }
+  
+		  form.classList.add('was-validated')
+		}, false)
+	  })
+  })()
